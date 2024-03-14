@@ -1,7 +1,10 @@
-### Hi there 👋
+### Hey there 👋
+
+[![wakatime](https://wakatime.com/badge/user/018e2a18-2e73-490b-b61e-5510978a58fb.svg)](https://wakatime.com/@018e2a18-2e73-490b-b61e-5510978a58fb)
+![](https://komarev.com/ghpvc/?username=IliyanKostov9)
 
 <!--
-**IliyanKostov9/IliyanKostov9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**alanhamlett/alanhamlett** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
