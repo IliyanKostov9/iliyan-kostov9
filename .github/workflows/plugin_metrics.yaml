@@ -13,7 +13,7 @@ jobs:
       - name: Calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.calendar.svg
+          filename: metrics.plugin.calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_calendar: yes
