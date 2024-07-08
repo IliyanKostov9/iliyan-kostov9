@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Current year calendar
+      - name: Calendar
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.calendar.svg
