@@ -10,14 +10,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Metrics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.classic.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: header, repositories
-          plugin_lines: yes
-
       - name: Calendar
         uses: lowlighter/metrics@latest
         with:
