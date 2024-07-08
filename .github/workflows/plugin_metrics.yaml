@@ -2,7 +2,9 @@ name: Metrics
 on:
   schedule:
     - cron: "0 0 * * *"
-  push: [master]
+  push:
+    branches:
+      - master
 
 jobs:
   deploy:
