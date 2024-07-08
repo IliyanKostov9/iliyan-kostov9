@@ -8,34 +8,34 @@ on:
 
 jobs:
   deploy:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Current year calendar
-      uses: lowlighter/metrics@latest
-      with:
-        filename: metrics.calendar.svg
-        token: ${{ secrets.METRICS_TOKEN }}
-        base: ""
-        plugin_calendar: yes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Current year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_calendar: yes
 
-    - name: Pinned repositories
-      uses: lowlighter/metrics@latest
-      with:
-        filename: metrics.repositories.pinned.svg
-        token: ${{ secrets.METRICS_TOKEN }}
-        base: ""
-        plugin_repositories: yes
-        plugin_repositories_pinned: 2
+      - name: Pinned repositories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.repositories.pinned.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_pinned: 2
 
-    - name: WakaTime
-      uses: lowlighter/metrics@latest
-      with:
-        filename: metrics.wakatime.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_wakatime: yes
-        plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-        plugin_wakatime_days: 7
-        plugin_wakatime_languages_other: no
-        plugin_wakatime_repositories_visibility: public
-        plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+      - name: WakaTime
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.wakatime.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_days: 7
+          plugin_wakatime_languages_other: no
+          plugin_wakatime_repositories_visibility: public
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
