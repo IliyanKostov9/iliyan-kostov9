@@ -27,10 +27,12 @@ Interested in DevOps && app development.
     <a href="https://aws.amazon.com/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="Amazon AWS" width="50">
     </a>
-<a href="https://aws.amazon.com/amplify/">
+    <a href="https://aws.amazon.com/amplify/">
         <img src="https://ionicframeworkcom.cdn.prismic.io/ionicframeworkcom/d3576c2287f6fd34c80c31bccf81cd3149dafc08_aws-amplify.png" alt="Amazon AWS" width="50">
     </a>
+    <a href="https://aws.amazon.com/cdk/">
     <img src="https://www.troydieter.com/images/aws-cdk.png" alt="AWS CDKToolkit" width="50">
+        </a>
 </div>
 
 ## Stats
