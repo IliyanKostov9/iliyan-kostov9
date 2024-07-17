@@ -1,5 +1,7 @@
 name: Mirror to Codeberg
 
+env: REPO_NAME: '${{ github.repository#*/ }}'
+
 on: [push]
 
 jobs:
@@ -12,9 +14,9 @@ jobs:
           fetch-depth: 0
       - name: Extract repository name
         run: |
-          REPO_FULL_NAME="${{ github.repository }}"
-          REPO_NAME="${REPO_FULL_NAME#*/}.git"
-          export REPO_NAME=$REPO_NAME
+          # REPO_FULL_NAME="${{ github.repository }}"
+          # REPO_NAME="${REPO_FULL_NAME#*/}.git"
+          # export REPO_NAME=$REPO_NAME
           echo "Repo name extracted: $REPO_NAME"
 
       - uses: yesolutions/mirror-action@master
