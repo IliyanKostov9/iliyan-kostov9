@@ -1,0 +1,19 @@
+name: Mirror to Codeberg
+
+on: [push]
+
+jobs:
+  push:
+    name: push
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: yesolutions/mirror-action@master
+        with:
+          REMOTE: "https://codeberg.org/${{ secrets.GIT_USERNAME }}/${{ secrets.GIT_REPO }}.git"
+          GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
+          GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
+          PUSH_ALL_REFS: "true" # Push all branches
+          DEBUG: "true"
