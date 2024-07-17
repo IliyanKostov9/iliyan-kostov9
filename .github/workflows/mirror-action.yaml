@@ -19,7 +19,7 @@ jobs:
 
       - uses: yesolutions/mirror-action@master
         with:
-          REMOTE: "https://codeberg.org/${{ secrets.GIT_USERNAME }}/${env.REPO_NAME}"
+          REMOTE: "https://codeberg.org/${{ secrets.GIT_USERNAME }}/${{env.REPO_NAME}}"
           GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
           GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
           PUSH_ALL_REFS: "true" # Push all branches
