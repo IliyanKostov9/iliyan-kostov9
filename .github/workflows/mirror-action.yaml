@@ -1,7 +1,7 @@
 name: Mirror to Codeberg
 
 env:
-  REPO_NAME: "${{ github.repository#*/ }}"
+  REPO_NAME: "${{ github.repository }}#*/"
 
 on: [push]
 
