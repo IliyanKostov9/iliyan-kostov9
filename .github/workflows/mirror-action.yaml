@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
       - uses: yesolutions/mirror-action@master
         with:
-          REMOTE: "https://codeberg.org/${{ secrets.GIT_USERNAME }}/${GITHUB_REPOSITORY#*/}.git"
+          REMOTE: "https://codeberg.org/${{ secrets.GIT_USERNAME }}/${{ github.repository }}.git"
           GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
           GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
           PUSH_ALL_REFS: "true" # Push all branches
