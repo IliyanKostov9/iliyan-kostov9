@@ -1,7 +1,5 @@
 ### Hey there 👋
 
-Interested in DevOps && app development.
-
 Currently trying out [Codeberg](https://codeberg.org/iliyan-kostov). I may be potentially moving out to there and use Github as mirror to Codeberg.
 
 [![wakatime](https://wakatime.com/badge/user/018e2a18-2e73-490b-b61e-5510978a58fb.svg)](https://wakatime.com/@018e2a18-2e73-490b-b61e-5510978a58fb)
