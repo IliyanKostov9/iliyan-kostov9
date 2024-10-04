@@ -1,6 +1,6 @@
 ### Hey there 👋
 
-<!-- I'm using Github as a mirror to: [Codeberg](https://codeberg.org/iliyan-kostov). -->
+I'm using Github as a mirror to: [Codeberg](https://codeberg.org/iliyan-kostov).
 
 [![wakatime](https://wakatime.com/badge/user/018e2a18-2e73-490b-b61e-5510978a58fb.svg)](https://wakatime.com/@018e2a18-2e73-490b-b61e-5510978a58fb)
 ![](https://komarev.com/ghpvc/?username=IliyanKostov9)
